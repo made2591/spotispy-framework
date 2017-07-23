@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SpotiSpy</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="css/gallery.css">
+      <style type="text/css">
+
+          .carousel-control.left, .carousel-control.right {
+                background-image: none;
+          }
+
+      </style>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="index.html#">SpotiSpy</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html#about">Home</a>
+                    </li>
+                    <li>
+                        <a href="index.html#services">Purpose</a>
+                    </li>
+                    <li>
+                        <a href="index.html#gallery">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="index.html#contact">Techs</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Header -->
+    <a name="about"></a>
+    <div class="intro-header">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>Spotispy</h1>
+                        <h3>A real social experiment.<br/>From music lovers.<br/>To data scientist.<br/>And viceversa :D.</h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a href="https://github.com/" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Soon on Github</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+
+    <!-- Page Content -->
+
+	<a  name="services"></a>
+    <div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">SpotiSpy: the idea</h2>
+                    <p class="lead">The idea: take the songs heard using <a href="http://wwww.spotify.com">Spotify</a> and shared on social to extract information about tracks, genres, users. SpotiSpy performs more than just visualization: it analyzes the kinds of songs, geolocalizes users, extracts the list of most listened songs, and so much more.
+                    </p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <div id="carousel-example-generic" class="carousel carousel-inner slide" data-ride="carousel">
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="img/spotispy_10.png" alt="" style="margin: 0 auto;">
+                                <div class="carousel-caption">
+                                    Specific stats
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/spotispy_22.png" alt="" style="margin: 0 auto;">
+                                <div class="carousel-caption">
+                                    Song sharing chart
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/spotispy_11.png" alt="" style="margin: 0 auto;">
+                                <div class="carousel-caption">
+                                    Genres specific stats
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/spotispy_18.png" alt="" style="margin: 0 auto; width: 488px; height: 286px;">
+                                <div class="carousel-caption">
+                                    Most influential genres
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/spotispy_12.png" alt="" style="margin: 0 auto;">
+                                <div class="carousel-caption">
+                                    Songs specific stats
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/spotispy_22.png" alt="" style="margin: 0 auto;">
+                                <div class="carousel-caption">
+                                    Most shared songs
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Songs</h2>
+                    <p class="lead">Through sharing you can find out how much a song is heard: this information is related on set of users that usually share what they are listening to, and this is a limit. But it is a real fact based on the actual interest, and this is a big advantage. Also from the genres of the songs, you can discover about music and users from different country around the world.
+                    </p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="img/spotispy_6.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Genres</h2>
+                    <p class="lead">By using different databases (crossing data from several sources such as <a href="http://www.gracenote.com/">Gracenote</a> and <a href="http://www.lastfm.com/">Last.fm</a>), we tagged and completed the profiles of each song shared in the network for fifteen days. It has come out that music genres are distinctive: in the future, it would be nice to explore how these genre preferences evolve in time.
+                    </p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/spotispy_9.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Network</h2>
+                    <p class="lead">People who love pop music, listen to pop music. Follow the trend of pop music. Share pop music tracks. And is socially related to those who love pop music. SpotiSpy framework, through use of libraries such as <a href="https://networkx.github.io/">Networkx</a> and complex network management software such as <a href="http://gephi.github.io/">Gephi</a>, finds these relationships, explores and represents them in suggestive images that allow you to understand the social network topology. In addition, it performs sentiment analysis on the songs, based on the index of the positivity of the genres belonging to them.
+                    </p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <div id="carousel-example-generic_2" class="carousel carousel-inner slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="img/spotispy_15.png" alt="" style="margin: 0 auto;">
+                                <div class="carousel-caption">
+                                    Sharing influence
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/spotispy_16.png" alt="" style="margin: 0 auto;">
+                                <div class="carousel-caption">
+                                    Genres Comunities
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/spotispy_17.png" alt="" style="margin: 0 auto;">
+                                <div class="carousel-caption">
+                                    Followers network
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic_2" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic_2" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-a" style="margin-bottom: -51px;">
+
+        <div class="container" style="width:100%; margin-bottom: -51px;">
+            <h2 class="text-center">Gallery</h2>
+            <p class="lead text-center">Some of the images produced taking advantage of SpotiSpy framework</p>
+            <div class="row">
+                <a  name="gallery"></a>
+                <div id="carousel-example-generic_3" class="carousel carousel-inner slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="img/spotispy_10.png" alt="" style="margin: 0 auto;">
+                            <div class="carousel-caption">
+                                Sharing influence
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/spotispy_19.png" alt="" style="margin: 0 auto;">
+                            <div class="carousel-caption">
+                                Genres Comunities
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/spotispy_24.png" alt="" style="margin: 0 auto;">
+                            <div class="carousel-caption">
+                                Followers network
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic_3" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic_3" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Next Steps</h2>
+                    <p class="lead">We would like to continue our work by getting more resources and automating all the processes we have done to create a complete free-available tool. For instance, it would be great to take advantage of localization information, isolate them wherever possible, to normalize them and represent the world map to identify where most shared songs come from: this would be usefull to find out whether the same country prefers a song rather than a genre or other, to tie songs to certain events, to analyze the feelings that different country are experiencing on a geographic basis and justify them through the political events of that nation (just think of the riots in Ukraine, or the protests in Russia during the Olympic Games).
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+	<a  name="contact"></a>
+    <div class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12" style="text-align: center;">
+                    <h2>Used techs: </h2>
+                    <p class="lead">
+                        <a style="color: #ffffff;" href="http://d3js.org/">D3js</a>,
+                        <a style="color: #ffffff;" href="http://gephi.github.io/">Gephi</a>,
+                        <a style="color: #ffffff;" href="http://www.jqplot.com/">JQPlot</a>,
+                        <a style="color: #ffffff;" href="http://www.mongodb.com/">MongoDB</a>,
+                        <a style="color: #ffffff;" href="http://jquery.com/">JQuery</a>,
+                        <a style="color: #ffffff;" href="http://www.lastfm.it/api">last.fm API</a>,
+                        <a style="color: #ffffff;" href="https://dev.twitter.com/">Twitter API</a>,
+                        <a style="color: #ffffff;" href="https://developers.google.com/maps/">Google Maps API</a>,
+                        <a style="color: #ffffff;" href="https://developer.gracenote.com/web-api">Gracenote API</a>,
+                        <a style="color: #ffffff;" href="http://www.r-project.org/">R language</a>,
+                        <a style="color: #ffffff;" href="http://www.python.it/">Python</a> &
+                        <a style="color: #ffffff;" href="http://www.raspberrypi.org/">Raspberry PI</a>
+
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container" style="text-align: center;">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="index.html#about">Home</a>
+                        </li>
+                        <li>
+                            <a href="index.html#services">Purpose</a>
+                        </li>
+                        <li>
+                            <a href="index.html#gallery">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="index.html#contact">Techs</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy; Realized by <a href="http://made2591.github.com">Matteo Madeddu</a> and <a href="http://valentinarho.github.com">Valentina Rho</a> @2014. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
